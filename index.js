@@ -15,6 +15,7 @@ function increaseRankBy( n ) {
     for ( let j = 0, k = children.length; j < k; j++ ) {
       children[ j ].innerHTML = parseInt( children[ j ].innerHTML ) + n
     }
+    
   function deepestChild() {
   let node = document.getElementById( 'grand-node' )
   let nextNode = node.children[ 0 ]
